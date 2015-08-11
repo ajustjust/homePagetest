@@ -14,6 +14,14 @@
 		1AC204DE1B43BFBE0036D8D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204DD1B43BFBE0036D8D9 /* Images.xcassets */; };
 		1AC204E11B43BFBE0036D8D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204DF1B43BFBE0036D8D9 /* LaunchScreen.xib */; };
 		1AC204ED1B43BFBE0036D8D9 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC204EC1B43BFBE0036D8D9 /* __Tests.m */; };
+		1AC204FF1B43C9930036D8D9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204F91B43C9930036D8D9 /* 1.jpg */; };
+		1AC205001B43C9930036D8D9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204FA1B43C9930036D8D9 /* 2.jpg */; };
+		1AC205011B43C9930036D8D9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204FB1B43C9930036D8D9 /* 3.jpg */; };
+		1AC205021B43C9930036D8D9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204FC1B43C9930036D8D9 /* 4.jpg */; };
+		1AC205031B43C9930036D8D9 /* 药品1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204FD1B43C9930036D8D9 /* 药品1.jpg */; };
+		1AC205041B43C9930036D8D9 /* 药品2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC204FE1B43C9930036D8D9 /* 药品2.jpg */; };
+		1AC205061B43C9AF0036D8D9 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC205051B43C9AF0036D8D9 /* 搜索.png */; };
+		1AC205081B43C9F50036D8D9 /* lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC205071B43C9F50036D8D9 /* lg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		1AC204E61B43BFBE0036D8D9 /* 首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC204EB1B43BFBE0036D8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC204EC1B43BFBE0036D8D9 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		1AC204F91B43C9930036D8D9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1AC204FA1B43C9930036D8D9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1AC204FB1B43C9930036D8D9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1AC204FC1B43C9930036D8D9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		1AC204FD1B43C9930036D8D9 /* 药品1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "药品1.jpg"; sourceTree = "<group>"; };
+		1AC204FE1B43C9930036D8D9 /* 药品2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "药品2.jpg"; sourceTree = "<group>"; };
+		1AC205051B43C9AF0036D8D9 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "搜索.png"; path = "../搜索.png"; sourceTree = "<group>"; };
+		1AC205071B43C9F50036D8D9 /* lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lg.png; path = ../../lg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,7 @@
 				1AC204DA1B43BFBE0036D8D9 /* Main.storyboard */,
 				1AC204DD1B43BFBE0036D8D9 /* Images.xcassets */,
 				1AC204DF1B43BFBE0036D8D9 /* LaunchScreen.xib */,
+				1AC204F81B43C9930036D8D9 /* 图片1 */,
 				1AC204D01B43BFBE0036D8D9 /* Supporting Files */,
 			);
 			path = "首页";
@@ -117,6 +134,21 @@
 				1AC204EB1B43BFBE0036D8D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AC204F81B43C9930036D8D9 /* 图片1 */ = {
+			isa = PBXGroup;
+			children = (
+				1AC205071B43C9F50036D8D9 /* lg.png */,
+				1AC205051B43C9AF0036D8D9 /* 搜索.png */,
+				1AC204F91B43C9930036D8D9 /* 1.jpg */,
+				1AC204FA1B43C9930036D8D9 /* 2.jpg */,
+				1AC204FB1B43C9930036D8D9 /* 3.jpg */,
+				1AC204FC1B43C9930036D8D9 /* 4.jpg */,
+				1AC204FD1B43C9930036D8D9 /* 药品1.jpg */,
+				1AC204FE1B43C9930036D8D9 /* 药品2.jpg */,
+			);
+			path = "图片1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +231,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC205041B43C9930036D8D9 /* 药品2.jpg in Resources */,
 				1AC204DC1B43BFBE0036D8D9 /* Main.storyboard in Resources */,
+				1AC205021B43C9930036D8D9 /* 4.jpg in Resources */,
+				1AC204FF1B43C9930036D8D9 /* 1.jpg in Resources */,
+				1AC205001B43C9930036D8D9 /* 2.jpg in Resources */,
+				1AC205061B43C9AF0036D8D9 /* 搜索.png in Resources */,
+				1AC205011B43C9930036D8D9 /* 3.jpg in Resources */,
 				1AC204E11B43BFBE0036D8D9 /* LaunchScreen.xib in Resources */,
 				1AC204DE1B43BFBE0036D8D9 /* Images.xcassets in Resources */,
+				1AC205031B43C9930036D8D9 /* 药品1.jpg in Resources */,
+				1AC205081B43C9F50036D8D9 /* lg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +458,7 @@
 				1AC204F21B43BFBE0036D8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AC204F31B43BFBE0036D8D9 /* Build configuration list for PBXNativeTarget "首页Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +467,7 @@
 				1AC204F51B43BFBE0036D8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
